@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Café Andino</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="nav container">
+<a class="logo" href="index.html">☕ Café Andino</a>
+<div class="nav-links"><a href="index.html">Inicio</a><a href="productos.html">Productos</a><a href="nosotros.html">Nosotros</a><a class="active" href="contacto.html">Contacto</a></div>
+</nav></header>
+<main class="section">
+<div class="container narrow">
+<div class="section-title left"><span>Hablemos</span><h1>Contáctanos</h1><p>Este formulario sirve para practicar un evento de generación de leads.</p></div>
+<form id="contact-form" class="contact-form">
+<label>Nombre<input type="text" name="nombre" required placeholder="Tu nombre"></label>
+<label>Email<input type="email" name="email" required placeholder="tu@email.com"></label>
+<label>Mensaje<textarea name="mensaje" rows="5" required placeholder="¿En qué podemos ayudarte?"></textarea></label>
+<button class="btn primary" type="submit" id="btn-enviar-formulario">Enviar mensaje</button>
+</form>
+<div id="form-success" class="success" hidden>¡Mensaje enviado! (Simulación para el taller.)</div>
+<div class="contact-options">
+<a href="https://wa.me/51999999999" target="_blank" rel="noopener" id="btn-whatsapp" class="option">💬 Escribir por WhatsApp</a>
+<a href="mailto:contacto@cafeandino.test" id="btn-email" class="option">✉️ Enviar email</a>
+</div>
+</div>
+</main>
+<footer><div class="container footer-content"><span>© 2026 Café Andino · Sitio ficticio</span><a href="index.html">Inicio</a></div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
